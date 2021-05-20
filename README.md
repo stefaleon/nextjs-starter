@@ -15,3 +15,7 @@ http://localhost:3000/profile
 https://nextjs.org/learn/basics/assets-metadata-css/layout-component
 
 http://localhost:3000/profile
+
+## module path aliases
+
+https://nextjs.org/docs/advanced-features/module-path-aliases
