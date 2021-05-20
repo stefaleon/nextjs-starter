@@ -1,9 +1,10 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Layout from '../components/Layout';
 
 export default function profile() {
   return (
-    <div>
+    <Layout>
       <Head>
         <title>Profile</title>
       </Head>
@@ -13,6 +14,6 @@ export default function profile() {
         width={144} // Desired size with correct aspect ratio
         alt="batmanikos image"
       />
-    </div>
+    </Layout>
   );
 }
