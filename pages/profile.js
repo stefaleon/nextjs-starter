@@ -4,10 +4,11 @@ import Layout from '@/components/Layout';
 
 export default function profile() {
   return (
-    <Layout>
-      <Head>
-        <title>Profile</title>
-      </Head>
+    <Layout
+      title="Profile"
+      description="This is the profile page"
+      keywords="profile"
+    >
       <Image
         src="/images/batmanikos.png" // Route of the image file
         height={144} // Desired size with correct aspect ratio
